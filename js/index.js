@@ -1,4 +1,6 @@
-const peronsajes = document.querySelector(".personajes");
+let personajes = [];
+
+const personajes = document.querySelector(".personajes");
 const cargarPersonajes = document.querySelector(".cargar-personajes");
 const personajeDummy = document.querySelector(".personaje-dummy");
 const familia = document.querySelector(".familia");
